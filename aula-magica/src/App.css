@@ -1,3 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Miniver);
+@import url(https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap);
+
+
 .App {
   text-align: center;
 }
@@ -35,4 +41,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.logo_img{
+  height: 100%;
+  margin-inline-start: 2vw;
+  margin-inline-end: 2vw;
+  /* margin-top: 0vh; */
+  
+}
+
+#menu_header {
+  background-color: #668eb3;
+  /* background-color: #467db1; */
+}
+/*comic sans*/
+#logo_name {
+  margin-top: 0.2%;
+  font-family: 'Miniver';
+  /* font-family: 'Mystery Quest', cursive; */
+  /* font-family: 'Delius Swash Caps', cursive; */
+  /* font-family: 'Nanum Gothic', sans-serif; */
+  font-size: 250%;
+}
+
+.menu_options {
+  font-style: bold;
 }
