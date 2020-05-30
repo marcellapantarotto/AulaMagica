@@ -9,7 +9,8 @@ class App extends Component {
     return (
       <Fragment>
         <Header />
-        <h1>Bem-vindo(a) à Aula Mágica!</h1>
+        <h3 style={{textAlignVertical: "center",textAlign: "center",}}>Bem-vindo(a) à Aula Mágica!</h3>
+        <p style={{textAlignVertical: "center",textAlign: "center",}}>Uma escola online com jogos e animações para facilitar seu aprendizado.</p>
       </Fragment>
     );
   }
