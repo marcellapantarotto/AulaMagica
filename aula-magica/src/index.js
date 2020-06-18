@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-import App from './App';
-import Cursos from './Cursos';
-import Gamificacao from './Gamificacao';
-import InteligenciaArtificial from './InteligenciaArtificial';
-import Relatorios from './Relatorios';
-import NotFound from './NotFound';
+import Home from './pages/Home/Home';
+import Cursos from './pages/Cursos/Cursos';
+import Gamificacao from './pages/Gamificacao/Gamificacao';
+import InteligenciaArtificial from './pages/InteligenciaArtificial/InteligenciaArtificial';
+import Relatorios from './pages/Relatorios/Relatorios';
+import NotFound from './pages/NotFound/NotFound';
 
 
 import * as serviceWorker from './serviceWorker';
@@ -17,7 +17,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
-      <Route path='/' exact={true} component={App} />
+      <Route path='/' exact={true} component={Home} />
       <Route path='/cursos' exact={true} component={Cursos} />
       <Route path='/gamificacao' exact={true} component={Gamificacao} />
       <Route path='/inteligencia_artificial' exact={true} component={InteligenciaArtificial} />

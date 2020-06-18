@@ -22,6 +22,8 @@
   color: white;
   font-family: 'Fredericka the Great', cursive;
   font-size: 250%;
+
+  /**/
   background-color: #467db1;
   font-weight: lighter;
 }
@@ -30,10 +32,16 @@
   font-style: bold;
 }
 
+h1{
+  font-family: 'Satisfy', cursive;
+  text-align: center;
+}
+
 h3{
   font-family: 'Satisfy', cursive;
   text-align: center;
 }
+
 
 .description{
   font-family: 'Open Sans', sans-serif;
@@ -51,7 +59,12 @@ h3{
   margin-inline-end: 2%;
 }
 
-.activeLink {
+.activeLinkHeader {
   background-color: #346ca0;
   font-weight: bold;
+}
+
+img{
+  align-self: center;
+  max-width: 50%;
 }
